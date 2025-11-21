@@ -39,3 +39,9 @@ CMIB4S23         Graphilbum      1900  3030   5.8e-18      96.9  No
 cox1             Graphilbum      3031  3292   1.3e-73     241.4  -
 CMIB4S23         Graphilbum      3293  5429   3.5e-13      73.5  No
 cox1             Graphilbum      5430  5891   1.6e-110    363.8  -
+
+### General notes about the output
+
+Infernal and hmmer results are saved to the intermediate tblout files *GII_Results.tblout* and *GIH_Results.tblout*, respectively. 
+
+The main GRIFMAP results (as shown above) are printed directly to the console when the program has finished running. 
