@@ -3,9 +3,9 @@ GRIFMAP (GRoup I Fungal Mitogenome Accurate Prediction)
 
 ## Installation instructions
 
-GRIFMAP runs HMMER and Infernal, so both must be installed. 
+GRIFMAP runs HMMER and Infernal, so both must be installed. It is written in Python and makes use of Biopython.
 
-### hmmer
+### HMMER
 
 Run `apt install hmmer` (or the appropriate equivalent for your system) to install *hmmer*.
 
@@ -16,6 +16,10 @@ See: http://hmmer.org/documentation.html for more details or to compile from sou
 Run `apt-get install infernal infernal-doc` (or the appropriate equivalent for your system) to install *Infernal*.
 
 See: http://eddylab.org/infernal/ for more details or to compile from source.
+
+### Biopython
+
+See: https://biopython.org/wiki/Download for installation instructions.
 
 ## Running GRIFMAP
 
