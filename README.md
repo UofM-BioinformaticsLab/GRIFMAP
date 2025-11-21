@@ -27,4 +27,15 @@ Begin by cloning this repository and making it your working directory.
 
 2) Copy the *geneDatabasewoCountModel3* files from 'Group I Intron HMMER/' to the main directory: `cp Group I Intron HMMER/geneDatabasewoCountModel3* .`
 
-3) To test using our example sequence, run `python GRIFMAP.py Example/WINM57-cox1Region.txt`
+3) To test using our example sequence, run `python GRIFMAP.py Example/WINM117-smallRegion.fa`
+
+### Main output table of the test example
+target name    query name      from    to    E-value    score  Possible Twin-tron found
+---------------  ------------  ------  ----  ---------  -------  --------------------------
+cox1             Graphilbum         3   734   4.1e-233    770.2  -
+CMIB4S23         Graphilbum       735  1763   3.5e-22     117.6  No
+cox1             Graphilbum      1764  1899   6.3e-31      99.9  -
+CMIB4S23         Graphilbum      1900  3030   5.8e-18      96.9  No
+cox1             Graphilbum      3031  3292   1.3e-73     241.4  -
+CMIB4S23         Graphilbum      3293  5429   3.5e-13      73.5  No
+cox1             Graphilbum      5430  5891   1.6e-110    363.8  -
